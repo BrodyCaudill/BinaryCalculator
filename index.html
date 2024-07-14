@@ -1,0 +1,25 @@
+<!-- Enter your HTML code here -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Binary Calculator</title>
+        <link rel="stylesheet" href="css/binaryCalculator.css">
+    </head>
+    <body>
+        
+        <div id="box"></div>
+        
+        <div id="btns">
+            <button class="num" onclick="writeit('0')">0</button>
+            <button class="num" onclick="writeit('1')">1</button>
+            <button class="enter" onclick="clearAll()">C</button>
+            <button class="enter" onclick="calculate()"">=</button>
+            <button class="op" onclick="writeit('+')">+</button>
+            <button class="op" onclick="writeit('-')">-</button>
+            <button class="op" onclick="writeit('*')">*</button>
+            <button class="op" onclick="writeit('/')">/</button>
+        </div>
+        <script src="js/binaryCalculator.js"></script>
+    </body>
+</html>
